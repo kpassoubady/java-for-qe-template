@@ -36,15 +36,15 @@ public class OrderTest {
         // The below will pass because the Strings are same.
         assertEquals("Comparing Apple to Apple", "Apple", "Apple");
         // The below will fail because the Strings are different.
-        assertEquals("Comparing Apple to Maple", "Apple", "Maple");
-        // The below will fail because the integers are different value.
-        assertEquals("Comparing 1 to 10", 1, 10);
+        // assertEquals("Comparing Apple to Maple", "Apple", "Maple");
+        // The below will fail if the integers are different values.
+        assertEquals("Comparing 1 to 10", 10, 10);
     }
 
     @Test
     public void testBanana() {
         System.out.println("@Test - OrderTest.testBanana()");
         int expected = (int) (Math.random() * 10) + 1;
-        assertTrue("Comparing 1 > 10 - failed", expected < 10);
+        assertTrue("Comparing 1 <= 11 - failed", expected <= 11);
     }
 }

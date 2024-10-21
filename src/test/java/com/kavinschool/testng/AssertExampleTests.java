@@ -17,7 +17,7 @@ public class AssertExampleTests {
     public void testSoftAsserts() {
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals("Kangs", "Kangs", "Names are not equal");
-        softAssert.assertEquals(2, 2,you "Numbers are not equal");
+        softAssert.assertEquals(2, 2,"Numbers are not equal");
         softAssert.assertAll("Completed All the checks");
     }
 }
