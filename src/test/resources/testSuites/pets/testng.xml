@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test thread-count="5" name="CoreJava" parallel="none">
+        <classes>
+            <class name="com.kavinschool.rest.assured.CreatePetTest"/>
+        </classes>
+    </test> <!-- CoreJava -->
+</suite> <!-- Default Suite -->

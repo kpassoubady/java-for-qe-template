@@ -1,0 +1,18 @@
+{
+  "id":%1$d,
+  "category": {
+    "id": 10,
+    "name": "%2$s"
+  },
+  "name": "%2$s",
+  "photoUrls": [
+    "http://www.kavinschool.com/zenphoto/cache/kavinschool-logo/kavinschool_logo01_90_cw100_ch100_thumb.png"
+  ],
+  "tags": [
+    {
+      "id": 10,
+      "name": "%2$s"
+    }
+  ],
+  "status": "%3$s"
+}
