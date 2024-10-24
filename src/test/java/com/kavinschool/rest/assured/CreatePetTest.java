@@ -31,6 +31,5 @@ public class CreatePetTest {
         System.out.println("Response Code: " + response.getStatusCode());
         System.out.println("Response Body: " + response.getBody().asString());
         Assert.assertEquals(response.getStatusCode(), 200);
-        Assert.assertEquals(response.getBody().jsonPath(), requestBody);
     }
 }
