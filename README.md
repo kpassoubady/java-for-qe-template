@@ -29,7 +29,8 @@ mvn clean install
 
 In Command Prompt
 ![alt text](image-4.png)
-In IntelliJ IDEA
+
+In IntelliJ IDEA Edito
 ![alt text](image-1.png)
 
 You should see Build Success at the end as shown below:
@@ -41,14 +42,17 @@ You should see Build Success at the end as shown below:
 mvn test -P api-tests,exec-java,unit-tests
 ```
 
-In Command Prompt
+In Command Prompt:
 ![alt text](image-5.png)
-In IntelliJ IDEA Editor
+
+In IntelliJ IDEA Editor:
 ![alt text](image-2.png)
 
 You should see the below `Build Success` message
-In IntelliJ IDEA
+
+In IntelliJ IDEA:
 ![alt text](image-3.png)
+
 In the command prompt:
 ![alt text](image-6.png)
 
