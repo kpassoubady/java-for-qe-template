@@ -28,13 +28,13 @@ mvn clean install
 ```
 
 In Command Prompt
-![alt text](image-4.png)
+![alt text](./image/image-4.png)
 
 In IntelliJ IDEA Edito
-![alt text](image-1.png)
+![alt text](./image/image-1.png)
 
 You should see Build Success at the end as shown below:
-![alt text](image.png)
+![alt text](./image/image.png)
 
 1. Run the tests:
 
@@ -43,18 +43,18 @@ mvn test -P api-tests,exec-java,unit-tests
 ```
 
 In Command Prompt:
-![alt text](image-5.png)
+![alt text](./image/image-5.png)
 
 In IntelliJ IDEA Editor:
-![alt text](image-2.png)
+![alt text](./image/image-2.png)
 
 You should see the below `Build Success` message
 
 In IntelliJ IDEA:
-![alt text](image-3.png)
+![alt text](./image/image-3.png)
 
 In the command prompt:
-![alt text](image-6.png)
+![alt text](./image/image-6.png)
 
 ## LinkedIn Profile
 
